@@ -14,7 +14,6 @@ const storeStyle = new ol.style.Style({
 const storeSource = new ol.source.Vector();
 const storeLayer = new ol.layer.Vector({
   source: storeSource,
-  style: storeStyle,
   title: '桌遊店'
 });
 
@@ -75,7 +74,7 @@ const mrtRouteLayer = new ol.layer.Vector({
 });
 map.addLayer(mrtRouteLayer);
 
-// 載入 stores.json
+// 載入桌遊店資料
 $.getJSON('data/stores.json', function (stores) {
   stores.forEach(function (d) {
     const feature = new ol.Feature({
@@ -85,6 +84,7 @@ $.getJSON('data/stores.json', function (stores) {
       services: d.services.join('、'),
       district: d.district
     });
+    feature.setStyle(storeStyle); // ✅ 必須給每個點樣式，才能顯示並響應點擊
     storeSource.addFeature(feature);
   });
 });
@@ -101,9 +101,12 @@ const overlay = new ol.Overlay({
 });
 map.addOverlay(overlay);
 
+// 點擊顯示資訊
 map.on('singleclick', function (evt) {
+  let found = false;
   map.forEachFeatureAtPixel(evt.pixel, function (feature) {
     const props = feature.getProperties();
+    if (!props.name) return; // 如果沒有 name，就不是桌遊店
     const coord = feature.getGeometry().getCoordinates();
     const html = `
       <h3>${props.name}</h3>
@@ -113,5 +116,11 @@ map.on('singleclick', function (evt) {
     `;
     content.innerHTML = html;
     overlay.setPosition(coord);
+    found = true;
   });
+
+  // 如果點到空白處，就關掉 popup
+  if (!found) {
+    overlay.setPosition(undefined);
+  }
 });
