@@ -1,0 +1,29 @@
+[
+  {
+    "id": "store001",
+    "name": "骰子樂園",
+    "lat": 25.047,
+    "lng": 121.532,
+    "pricing": "NT$80/時；假日 NT$120/時",
+    "services": ["teaching", "drinkUnlimited", "usedGames"],
+    "district": "中正區"
+  },
+  {
+    "id": "store002",
+    "name": "桌上奇航",
+    "lat": 25.058,
+    "lng": 121.517,
+    "pricing": "NT$150/人整日",
+    "services": ["teaching", "reservation"],
+    "district": "大同區"
+  },
+  {
+    "id": "store003",
+    "name": "紙上王國",
+    "lat": 25.033,
+    "lng": 121.565,
+    "pricing": "低消一杯飲品，不限時",
+    "services": ["drinkUnlimited", "usedGames", "events"],
+    "district": "信義區"
+  }
+]
