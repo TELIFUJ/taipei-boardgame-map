@@ -25,12 +25,14 @@
     .ol-popup {
       position: absolute;
       background: white;
+      border-radius: 4px;
       border: 1px solid #ccc;
       padding: 10px;
-      border-radius: 4px;
       bottom: 12px;
       left: -50px;
       min-width: 200px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      z-index: 100; /* 🔥 必須確保浮在其他圖層之上 */
     }
 
     .sidebar-pane {
@@ -61,7 +63,9 @@
   </div>
 
   <div id="map" class="sidebar-map"></div>
-  <div id="popup" class="ol-popup" style="display:none;">
+
+  <!-- ✅ Popup 元素，確保 id 與 JS 對應，無 display:none -->
+  <div id="popup" class="ol-popup">
     <div id="popup-content"></div>
   </div>
 
