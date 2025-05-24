@@ -16,7 +16,9 @@
   <link href="css/ol3-sidebar.min.css" rel="stylesheet">
 
   <style>
-    html, body, #map {
+    html,
+    body,
+    #map {
       margin: 0;
       padding: 0;
       height: 100%;
@@ -31,8 +33,9 @@
       bottom: 12px;
       left: -50px;
       min-width: 200px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-      z-index: 100; /* 🔥 必須確保浮在其他圖層之上 */
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+      z-index: 100;
+      /* 🔥 必須確保浮在其他圖層之上 */
     }
 
     .sidebar-pane {
@@ -57,6 +60,42 @@
     <div class="sidebar-content">
       <div class="sidebar-pane active" id="info">
         <h1 class="sidebar-header">店家資訊 <span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+
+        <!-- --- 篩選器 --- -->
+        <div id="filters" class="p-2">
+          <select id="districtSel" class="form-select mb-2">
+            <option value="">全部行政區</option>
+            <option>中正區</option><option>大同區</option><option>中山區</option>
+            <option>松山區</option><option>大安區</option><option>萬華區</option>
+            <option>信義區</option><option>士林區</option><option>北投區</option>
+            <option>內湖區</option><option>南港區</option><option>文山區</option>
+          </select>
+
+          <label class="form-label">最高價位 (NT$/hr)</label>
+          <input type="range" id="priceRange" class="form-range" min="50" max="300" value="300">
+          <span id="priceLabel" class="badge bg-primary">300</span>
+
+          <hr class="my-2">
+          <div class="mb-2">服務：</div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="teaching" id="svcTeach">
+            <label class="form-check-label" for="svcTeach">教學</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="drinkUnlimited" id="svcDrink">
+            <label class="form-check-label" for="svcDrink">飲料暢飲</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="usedGames" id="svcUsed">
+            <label class="form-check-label" for="svcUsed">二手桌遊</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="reservation" id="svcResv">
+            <label class="form-check-label" for="svcResv">預約包場</label>
+          </div>
+        </div>
+        <!-- --- /篩選器 --- -->
+
         <div id="infoBox">請點選地圖上的桌遊店</div>
       </div>
     </div>
