@@ -1,29 +1,662 @@
 [
   {
-    "id": "store001",
-    "name": "骰子樂園",
-    "lat": 25.047,
-    "lng": 121.532,
-    "pricing": "NT$80/時；假日 NT$120/時",
-    "services": ["teaching", "drinkUnlimited", "usedGames"],
-    "district": "中正區"
+    "name": "卡牌屋桌上遊戲專賣店",
+    "lat": 25.05386158,
+    "lng": 121.4961908,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "02-23112981",
+    "url": ""
   },
   {
-    "id": "store002",
-    "name": "桌上奇航",
-    "lat": 25.058,
-    "lng": 121.517,
-    "pricing": "NT$150/人整日",
-    "services": ["teaching", "reservation"],
-    "district": "大同區"
+    "name": "桌遊天空城",
+    "lat": 25.04882209,
+    "lng": 121.5256069,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "02-25931307",
+    "url": "https://www.facebook.com/laputaBG"
   },
   {
-    "id": "store003",
-    "name": "紙上王國",
-    "lat": 25.033,
-    "lng": 121.565,
-    "pricing": "低消一杯飲品，不限時",
-    "services": ["drinkUnlimited", "usedGames", "events"],
-    "district": "信義區"
+    "name": "Game Square 遊戲平方",
+    "lat": 25.05165999,
+    "lng": 121.5231097,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "02-25811191",
+    "url": "https://www.instagram.com/game_square"
+  },
+  {
+    "name": "桌友之地：中山店（中山桌遊店/24小時服務/桌遊玩樂/租售桌遊/親親貓咪）",
+    "lat": 25.06023003,
+    "lng": 121.5258866,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0916595980",
+    "url": "https://www.facebook.com/FriendinBGClub"
+  },
+  {
+    "name": "桌遊地下城 | 深夜遊玩需求歡迎電話預約 | 迎新跨年 | 玩買租學、聚會活動 | 70人大空間 | Team Building團隊建立",
+    "lat": 25.04191842,
+    "lng": 121.5460566,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "02-27119570",
+    "url": "https://www.bungeon.com/"
+  },
+  {
+    "name": "貝克街桌遊專賣店｜文化幣✅｜販售、租借、遊玩",
+    "lat": 25.06014572,
+    "lng": 121.5190239,
+    "pricing": "",
+    "services": [],
+    "district": "大同區",
+    "phone": "02-25529059",
+    "url": "https://bgstreet.simplybook.asia/"
+  },
+  {
+    "name": "貳家桌遊東區店(預約請加LINE @218ajoas)",
+    "lat": 25.04847259,
+    "lng": 121.5445627,
+    "pricing": "",
+    "services": [],
+    "district": "松山區",
+    "phone": "02-23569036",
+    "url": "https://www.oursecondhome12.com/"
+  },
+  {
+    "name": "玩聚空間 桌遊 各式場地租借/桌遊販售出租/精釀啤酒/生日聚會/內有店貓4隻",
+    "lat": 25.04086013,
+    "lng": 121.5287692,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "02-23941157",
+    "url": "http://www.gatheringzonebg.com/"
+  },
+  {
+    "name": "飛鷹桌遊｜桌遊現場玩/販售/租借｜收文化幣｜免費教學｜電話或IG訂位｜可帶外食叫外送｜原 瘋桌松山店｜場地租借｜朋友聚會",
+    "lat": 25.04681754,
+    "lng": 121.5507616,
+    "pricing": "",
+    "services": [],
+    "district": "松山區",
+    "phone": "02-25798608",
+    "url": "https://rink.cc/x28xu"
+  },
+  {
+    "name": "Swan Cafe 天鵝桌遊館",
+    "lat": 25.00455718,
+    "lng": 121.5365779,
+    "pricing": "",
+    "services": [],
+    "district": "文山區",
+    "phone": "02-29308983",
+    "url": "http://www.swanpanasia.com/"
+  },
+  {
+    "name": "夏洛克桌遊專賣店｜可使用文化幣｜桌遊遊玩 販售 租借｜線上預約｜80人場地｜場地租借｜朋友聚會｜親子同樂｜室內景點｜雨天備案",
+    "lat": 25.03882916,
+    "lng": 121.5523892,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "02-87715911",
+    "url": "https://www.facebook.com/SherlockBoardGamestore"
+  },
+  {
+    "name": "貳家桌遊北車店24H",
+    "lat": 25.04520061,
+    "lng": 121.5163674,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "02-23142006",
+    "url": "https://lin.ee/grOxFJ9"
+  },
+  {
+    "name": "陽光桌遊-西門店(場地舒適，遊戲眾多，教學親切)",
+    "lat": 25.04199792,
+    "lng": 121.5077392,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "02-23615183",
+    "url": "https://www.facebook.com/sunnybgximen/?modal=admin_todo_tour"
+  },
+  {
+    "name": "木木日子桌遊",
+    "lat": 25.03982941,
+    "lng": 121.5773279,
+    "pricing": "",
+    "services": [],
+    "district": "信義區",
+    "phone": "0972065720",
+    "url": "https://mumudaytw.wixsite.com/mumuday"
+  },
+  {
+    "name": "橘色空間-板橋桌遊店~ Line : @538vnmqv ｜桌遊租借/訂購、板橋府中站、會議空間、包廂教室",
+    "lat": 25.00864727,
+    "lng": 121.4570324,
+    "pricing": "",
+    "services": [],
+    "district": "板橋區",
+    "phone": "02-89699003",
+    "url": "https://lin.ee/SVkBBOC"
+  },
+  {
+    "name": "飛鷹桌遊｜桌遊現場玩/販售/租借｜收文化幣｜免費教學｜電話或IG訂位｜可帶外食叫外送｜原 瘋桌松山店｜場地租借｜朋友聚會",
+    "lat": 25.04680558,
+    "lng": 121.5507727,
+    "pricing": "",
+    "services": [],
+    "district": "松山區",
+    "phone": "02-25798608",
+    "url": "https://rink.cc/x28xu"
+  },
+  {
+    "name": "桌遊秘境 林口龜山店",
+    "lat": 25.05161373,
+    "lng": 121.3683631,
+    "pricing": "",
+    "services": [],
+    "district": "龜山區",
+    "phone": "03-3181718",
+    "url": "https://www.facebook.com/BGsecretbase"
+  },
+  {
+    "name": "奧特狐桌遊店（未訂位彈性開關門30分鐘）",
+    "lat": 25.04157124,
+    "lng": 121.5055261,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "02-23815869",
+    "url": "https://www.facebook.com/twoutfox/"
+  },
+  {
+    "name": "桌遊地下城 延吉店",
+    "lat": 25.04184154,
+    "lng": 121.5459027,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "02-27787947",
+    "url": "https://www.bungeon.com/"
+  },
+  {
+    "name": "桌友之地：府中店 （板橋桌遊店、24小時營業、桌遊玩樂、租借遊戲、包場派對）",
+    "lat": 25.00710993,
+    "lng": 121.4605211,
+    "pricing": "",
+    "services": [],
+    "district": "板橋區",
+    "phone": "0916595980",
+    "url": "https://m.facebook.com/FriendinBGClub/"
+  },
+  {
+    "name": "漫果子桌遊店-大直店",
+    "lat": 25.08303534,
+    "lng": 121.5481747,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "02-25330065",
+    "url": "http://www.mgz.com.tw/"
+  },
+  {
+    "name": "卡卡城 桌上遊戲-台北-（文化幣使用）（桌游店/桌遊租借/場地出租/桌遊販售) 北車(桌遊包場/場地租借/桌遊包場)",
+    "lat": 25.04479825,
+    "lng": 121.5140524,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0223880938",
+    "url": "https://www.cacacity.tw/"
+  },
+  {
+    "name": "桌遊地下城 | 深夜遊玩需求歡迎電話預約 | 迎新跨年 | 玩買租學、聚會活動 | 70人大空間 | Team Building團隊建立",
+    "lat": 25.04190837,
+    "lng": 121.5460537,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "02-27119570",
+    "url": "https://www.bungeon.com/"
+  },
+  {
+    "name": "豆子城堡 桌遊店(2100到隔日1300訂位制 麻煩先訂位) 桌遊麻將、場地租借、派對聚會、桌遊出租、桌遊販售",
+    "lat": 25.09725564,
+    "lng": 121.5231599,
+    "pricing": "",
+    "services": [],
+    "district": "士林區",
+    "phone": "0908726633",
+    "url": "https://www.facebook.com/ShihlinBoardGame/"
+  },
+  {
+    "name": "豆子城堡桌遊 玩具 卡牌 休閒空間",
+    "lat": 25.08104881,
+    "lng": 121.4880734,
+    "pricing": "",
+    "services": [],
+    "district": "三重區",
+    "phone": "0229767123",
+    "url": ""
+  },
+  {
+    "name": "貳家桌遊松山慶城店(優惠預約加LINE @218ajoas)",
+    "lat": 25.05480948,
+    "lng": 121.5443585,
+    "pricing": "",
+    "services": [],
+    "district": "松山區",
+    "phone": "",
+    "url": ""
+  },
+  {
+    "name": "海水雩文化創意空間",
+    "lat": 25.06318171,
+    "lng": 121.5306824,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0225933733",
+    "url": "https://www.facebook.com/wuabgc/"
+  },
+  {
+    "name": "JOOL桌上遊戲俱樂部 JOOL boardgame club",
+    "lat": 25.0629969,
+    "lng": 121.5445301,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0227127636",
+    "url": "https://www.joolbgclub.com/"
+  },
+  {
+    "name": "3 cafe桌遊店(不提供教學，每人需低消一杯飲料，桌遊採自助式租借)",
+    "lat": 25.05287859,
+    "lng": 121.5364568,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0225013322",
+    "url": "https://www.facebook.com/Mimisecretbase"
+  },
+  {
+    "name": "布萊梅桌遊專賣店｜文化幣✅｜販售、租借、遊玩｜活動、企業包場｜百人大空間、獨立包廂",
+    "lat": 25.05111889,
+    "lng": 121.5349462,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0225012601",
+    "url": "https://bgbremen.simplybook.asia/v2/#"
+  },
+  {
+    "name": "風和桌遊空間",
+    "lat": 25.04516772,
+    "lng": 121.5347273,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0983309133",
+    "url": "https://www.facebook.com/profile.php?id=61560608198333&mibextid=LQQJ4d"
+  },
+  {
+    "name": "靠過來桌遊咖啡廳",
+    "lat": 25.03453929,
+    "lng": 121.5307965,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0905428741",
+    "url": "https://www.facebook.com/GrowLife-%E9%9D%A0%E9%81%8E%E4%BE%86-1414718015264803/"
+  },
+  {
+    "name": "AKMIGAMES艾客米桌上遊戲世界東門店",
+    "lat": 25.0338216,
+    "lng": 121.5323726,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "02-23936050",
+    "url": "https://m.facebook.com/magicplayer/"
+  },
+  {
+    "name": "桌友之地：西門店 （台北西門桌遊店、24小時營業、桌遊玩樂、租借遊戲、包場派對）",
+    "lat": 25.04473237,
+    "lng": 121.510544,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0916595980",
+    "url": "https://www.facebook.com/share/1GFy4i8Jke/"
+  },
+  {
+    "name": "桌遊藝術空間 Board Game Co-Working Space",
+    "lat": 25.04461755,
+    "lng": 121.5133394,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "02-23890860",
+    "url": "http://www.facebook.com/BGcows"
+  },
+  {
+    "name": "小船故事館Ｉ桌遊咖啡廳",
+    "lat": 25.04073933,
+    "lng": 121.5066406,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0223310566",
+    "url": "https://paperboat-storyhouse.com/"
+  },
+  {
+    "name": "西門-小心機桌遊",
+    "lat": 25.04216191,
+    "lng": 121.5055969,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0277515137",
+    "url": "https://www.instagram.com/cunningg_ximen?igsh=MXRieXAxbG1oNjVy"
+  },
+  {
+    "name": "AToMic 西門原子桌遊餐廳",
+    "lat": 25.03978921,
+    "lng": 121.5046328,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0975169159",
+    "url": "https://facebook.com/profile.php?id=349985535174083&_rdr"
+  },
+  {
+    "name": "上帝骰桌遊-台北西門(日麻會，桌遊教學推薦， 遊戲包廂空間，多功能場地推薦，萬華桌遊店推薦，萬華包場好處去，萬華桌遊租借)",
+    "lat": 25.03945388,
+    "lng": 121.5037302,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0223751011",
+    "url": "https://www.god-dice.com/"
+  },
+  {
+    "name": "荒煙露營風桌遊餐飲館",
+    "lat": 25.04301125,
+    "lng": 121.5023522,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0973259830",
+    "url": "https://www.instagram.com/huangyan463?igsh=MXF4MTk5Nmc3Y3ZuMA%3D%3D&utm_source=qr"
+  },
+  {
+    "name": "桌遊老爹｜購物｜派對｜販售｜夏季特價｜全年無休",
+    "lat": 25.03644889,
+    "lng": 121.5039764,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0223088972",
+    "url": "https://www.facebook.com/tgsbg"
+  },
+  {
+    "name": "台北【地主窩聚會空間】萬華桌遊店推薦｜台北劇本遊戲推薦｜台北桌遊包場｜萬華學生桌遊｜台北活動包場推薦｜台北桌遊店推薦｜西門町聚會推薦｜西門町親子同樂｜西門町桌遊新手推薦",
+    "lat": 25.03655728,
+    "lng": 121.5009285,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0921604015",
+    "url": "https://tichularp.weebly.com/"
+  },
+  {
+    "name": "諾貝兒玩具桌遊專賣店",
+    "lat": 25.02929052,
+    "lng": 121.5086262,
+    "pricing": "",
+    "services": [],
+    "district": "萬華區",
+    "phone": "0908977969",
+    "url": "https://toycoach.wordpress.com/"
+  },
+  {
+    "name": "派樂地 Event Space 桌遊活動空間",
+    "lat": 25.04709968,
+    "lng": 121.550588,
+    "pricing": "",
+    "services": [],
+    "district": "松山區",
+    "phone": "0225794518",
+    "url": ""
+  },
+  {
+    "name": "柴柴桌遊實驗室",
+    "lat": 25.04268823,
+    "lng": 121.5519949,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0987055584",
+    "url": ""
+  },
+  {
+    "name": "陽光桌遊-光復店、寶可夢PTCG道館",
+    "lat": 25.04522692,
+    "lng": 121.5564778,
+    "pricing": "",
+    "services": [],
+    "district": "松山區",
+    "phone": "0225778165",
+    "url": "https://www.facebook.com/sunnyboardgame/"
+  },
+  {
+    "name": "貳家桌遊仁愛順順店(優惠預約加line @218ajoas)",
+    "lat": 25.03756022,
+    "lng": 121.5390226,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "",
+    "url": "https://www.oursecondhome12.com/"
+  },
+  {
+    "name": "YOYOGI Land 代代木樂園 ｜桌遊空間｜場地租借｜販售教學「原遊戲平方-市府店」",
+    "lat": 25.04065992,
+    "lng": 121.5545918,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0227655659",
+    "url": ""
+  },
+  {
+    "name": "派對桌遊・罰才樂 信義高CP暢飲店 (原名Shisha屋Matchill)",
+    "lat": 25.04633875,
+    "lng": 121.5708788,
+    "pricing": "",
+    "services": [],
+    "district": "信義區",
+    "phone": "0902189687",
+    "url": "https://lit.link/178178178"
+  },
+  {
+    "name": "貳家桌遊南京三民店(優惠預約LINE @218ajoas)",
+    "lat": 25.04119667,
+    "lng": 121.5800403,
+    "pricing": "",
+    "services": [],
+    "district": "信義區",
+    "phone": "",
+    "url": "https://www.oursecondhome12.com/product-category/%E8%B2%B3%E5%AE%B6%E5%BF%A0%E5%AD%9D%E6%B0%B8%E6%98%A5%E5%BA%97/"
+  },
+  {
+    "name": "樹樂集",
+    "lat": 25.04248519,
+    "lng": 121.5681724,
+    "pricing": "",
+    "services": [],
+    "district": "信義區",
+    "phone": "0227657906",
+    "url": "http://www.facebook.com/Treellage/"
+  },
+  {
+    "name": "卡卡城桌遊永春店",
+    "lat": 25.04223043,
+    "lng": 121.5759166,
+    "pricing": "",
+    "services": [],
+    "district": "信義區",
+    "phone": "0227492979",
+    "url": "http://www.cacacity.tw/"
+  },
+  {
+    "name": "雅典娜咖啡‧空間‧桌遊",
+    "lat": 25.03244878,
+    "lng": 121.5532467,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0227510033",
+    "url": "https://www.facebook.com/athenacoffee.bg/"
+  },
+  {
+    "name": "Old Town舊城區桌遊館",
+    "lat": 25.03147998,
+    "lng": 121.554756,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0227083520",
+    "url": "https://www.facebook.com/oldtownBG2018/"
+  },
+  {
+    "name": "瘋桌遊益智遊戲專賣店大安店",
+    "lat": 25.03126588,
+    "lng": 121.5537821,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0227036003",
+    "url": ""
+  },
+  {
+    "name": "Magic Star桌遊-大安東區桌遊推薦 桌上遊戲 空間場地租借租賃 寶可夢紙牌 桌遊租借 反轉英雄 魔法風雲會",
+    "lat": 25.02506855,
+    "lng": 121.5431973,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0227018400",
+    "url": "https://www.facebook.com/MAGICSTAR01"
+  },
+  {
+    "name": "Open開房間桌遊餐酒館",
+    "lat": 25.02166603,
+    "lng": 121.5400387,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0227371868",
+    "url": "https://www.facebook.com/2020welcomehome/"
+  },
+  {
+    "name": "founding player 房頂上饗玩俱樂部×師大桌遊×投影Switch",
+    "lat": 25.02213391,
+    "lng": 121.5292961,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0982020714",
+    "url": "https://www.facebook.com/Founding-player-%E6%88%BF%E9%A0%82%E4%B8%8A%E9%A5%97%E7%8E%A9%E4%BF%B1%E6%A8%82%E9%83%A8%E5%B8%AB%E5%A4%A7%E6%A1%8C%E9%81%8A%E6%8A%95%E5%BD%B1Switch%E9%A3%9B%E9%8F%A2-105921584178307/"
+  },
+  {
+    "name": "卡卡城桌上遊戲休閒館-公館店（請從283巷口-欣欣大廈電梯上樓喔！）",
+    "lat": 25.01798223,
+    "lng": 121.5313737,
+    "pricing": "",
+    "services": [],
+    "district": "大安區",
+    "phone": "0223655614",
+    "url": "https://www.facebook.com/cacacityGongguan/"
+  },
+  {
+    "name": "桌遊領主",
+    "lat": 25.0149161,
+    "lng": 121.5338392,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0223684455",
+    "url": "https://www.facebook.com/BoardGameLord"
+  },
+  {
+    "name": "No.9聚會空間(９號聚會空間)",
+    "lat": 25.01413237,
+    "lng": 121.5341731,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0223691808",
+    "url": "https://www.facebook.com/no9space"
+  },
+  {
+    "name": "人性空間 總店",
+    "lat": 25.01589981,
+    "lng": 121.5321581,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0938957211",
+    "url": "http://humanspace286.weebly.com/"
+  },
+  {
+    "name": "DeRoot休閒空間(派對、桌遊、聚會百人場地)",
+    "lat": 25.04075879,
+    "lng": 121.5326152,
+    "pricing": "",
+    "services": [],
+    "district": "中正區",
+    "phone": "0223935300",
+    "url": "https://deroot68.wixsite.com/deroot"
+  },
+  {
+    "name": "貳家桌遊中山條通店",
+    "lat": 25.05082389,
+    "lng": 121.5236768,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "",
+    "url": "https://www.oursecondhome12.com/"
+  },
+  {
+    "name": "Bindo冰逗桌遊空間/3隻店貓/教學友善/入場須滿12歲",
+    "lat": 25.05170198,
+    "lng": 121.5230266,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "0225681051",
+    "url": "https://bindogames.com/"
+  },
+  {
+    "name": "貳家桌遊中山長春店(優惠預約加line @218ajoas)",
+    "lat": 25.05450951,
+    "lng": 121.5241018,
+    "pricing": "",
+    "services": [],
+    "district": "中山區",
+    "phone": "",
+    "url": "https://www.oursecondhome12.com/"
   }
 ]
