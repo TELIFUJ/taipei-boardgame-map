@@ -17,11 +17,16 @@
 
   <style>
     html,
-    body,
-    #map {
+    body {
       margin: 0;
       padding: 0;
       height: 100%;
+      width: 100%;
+    }
+
+    #map {
+      height: 100vh;
+      width: 100vw;
     }
 
     .ol-popup {
@@ -35,7 +40,6 @@
       min-width: 200px;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
       z-index: 100;
-      /* 🔥 必須確保浮在其他圖層之上 */
     }
 
     .sidebar-pane {
@@ -93,6 +97,8 @@
             <input class="form-check-input" type="checkbox" value="reservation" id="svcResv">
             <label class="form-check-label" for="svcResv">預約包場</label>
           </div>
+
+          <div id="resultCount" class="mt-2 text-muted small">目前顯示 0 間桌遊店</div>
         </div>
         <!-- --- /篩選器 --- -->
 
@@ -103,7 +109,7 @@
 
   <div id="map" class="sidebar-map"></div>
 
-  <!-- ✅ Popup 元素，確保 id 與 JS 對應，無 display:none -->
+  <!-- ✅ Popup 元素 -->
   <div id="popup" class="ol-popup">
     <div id="popup-content"></div>
   </div>
